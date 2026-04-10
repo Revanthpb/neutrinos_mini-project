@@ -1,62 +1,82 @@
 # 🌐 Mini Wikipedia Clone
 
-A modern **Wikipedia-style web application** built using **HTML, CSS, and TypeScript**.  
-This project allows users to search real Wikipedia articles, add custom sections, and interact with a clean, dynamic UI.
+A modern Wikipedia-style web application built using HTML, CSS, and TypeScript.  
+It allows users to search real Wikipedia articles, add custom sections, and manage content easily.
 
 ---
 
 ## 🚀 Features
 
-- 🔍 **Live Wikipedia Search**
-  - Fetches real-time data using Wikipedia API
-  - Displays article summary
-  - Provides link to full Wikipedia page
-
-- 💡 **Auto Suggestions**
-  - Suggests search terms while typing
-  - Click suggestion to search instantly
-
-- 🧾 **User Sections (CRUD)**
-  - ➕ Add custom sections
-  - ✏️ Edit existing sections
-  - 🗑️ Delete sections
-  - 💾 Data stored in LocalStorage
-
-- 📝 **Edit Wikipedia Article**
-  - Edit fetched article content
-  - Save it as a custom section
-
-- 🎨 **Modern UI**
-  - Wikipedia-style design
-  - Smooth animations
-  - Responsive layout
+- Live Wikipedia search using API  
+- Auto search suggestions  
+- Add, edit, delete custom sections  
+- LocalStorage support  
+- Clean and responsive UI  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5  
-- CSS3  
+- HTML  
+- CSS  
 - TypeScript  
-- Wikipedia REST API  
+- Wikipedia API  
 
 ---
 
 ## 📂 Project Structure
 
+wiki-clone/
+- index.html  
+- src/main.ts  
+- package.json  
+- README.md  
 
+---
+
+## ⚙️ Setup & Run
+
+1. Clone the repository  
+git clone https://github.com/Revanthpb/neutrinos_mini-project.git  
+
+2. Go to project folder  
+cd neutrinos_mini-project  
+
+3. Install dependencies  
+npm install  
+
+4. Run project  
+npm run dev  
+
+5. Open in browser  
+http://localhost:5173/  
+
+---
 
 ## 🌐 API Used
 
-- Wikipedia REST API  
-https://en.wikipedia.org/api/rest_v1/
+Wikipedia REST API  
+https://en.wikipedia.org/api/rest_v1/  
 
 ---
 
 ## 🚀 Future Improvements
 
-- 🌙 Dark / Light mode  
-- 📱 Fully responsive mobile UI  
-- ⚛️ React version  
-- 🧠 AI-powered summaries  
-- 🌐 Multi-language support  
+- Dark / Light mode  
+- Mobile responsive UI  
+- React version  
+- AI summaries  
+- Multi-language support  
+
+---
+
+## 👨‍💻 Author
+
+Revanthpb  
+https://github.com/Revanthpb  
+
+---
+
+## ⭐ Support
+
+Give a ⭐ if you like this project!
